@@ -1,0 +1,24 @@
+{
+  "name": "did2-cli",
+  "type": "module",
+  "version": "0.0.1",
+  "bin": {
+
+    "did2-cli": "dist/index.js"
+  },
+  "scripts": {
+    "all": "bun test && bun build index.ts --outdir dist"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "did2-lib": "workspace:*"
+  }
+}

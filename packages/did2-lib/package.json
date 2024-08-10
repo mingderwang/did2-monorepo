@@ -1,0 +1,19 @@
+{
+  "name": "did2-lib",
+  "version": "0.0.1",
+  "module": "index.ts",
+  "type": "module",
+  "main": "dist/main.js",
+  "scripts": {
+    "all": "bun test && bun build src/main.ts --outdir dist"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

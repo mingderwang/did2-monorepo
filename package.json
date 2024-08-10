@@ -1,0 +1,12 @@
+{
+  "name": "did2-monorepo",
+  "version": "0.0.1",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "nx": "19.5.7"
+  }
+}
