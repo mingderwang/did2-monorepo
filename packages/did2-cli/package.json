@@ -2,10 +2,12 @@
   "name": "did2-cli",
   "type": "module",
   "version": "0.0.1",
+  "license": "MIT",
   "bin": {
     "did2-cli": "dist/index.js"
   },
   "scripts": {
+    "dev": "bun --watch run index.ts",
     "all": "bun test && bun build index.ts --outdir dist"
   },
   "files": [

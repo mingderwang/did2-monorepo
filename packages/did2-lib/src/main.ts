@@ -14,4 +14,4 @@ export const action2 = (name: string, times: number) => {
     return greeting
   }
 
-console.log(action2('Alice', {times: 2}))
+console.log(action2('Alice', 2))

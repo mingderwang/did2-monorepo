@@ -8,6 +8,14 @@ const program = new Command();
 // Define the version of your CLI
 program.version('1.0.0');
 
+program
+  .command('server <num1> <num2>')
+  .description('Add two numbers')
+  .action((num1: string, num2: string) => {
+    const sum = parseFloat(num1) + parseFloat(num2);
+    console.log(`The sum of ${num1} and ${num2} is ${sum}`);
+  });
+
 // Define a command
 program
   .command('greet <name>')
